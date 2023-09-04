@@ -3,8 +3,8 @@ function Time(){
     let sec = date.getSeconds();
     let min = date.getMinutes();
     let hour = date.getHours();
-    let day = date.getDay();
-    let month = date.getMonth();
+    let day = date.getDate();
+    let month = date.getMonth() + 1;
     let year = date.getFullYear();
 
     if(hour === 0){
