@@ -1,4 +1,4 @@
-*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a, .nav){
+*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a, .nav, .phrase){
     background-color: black;
     font-family: Verdana, helvetica, arial, sans-serif;
 }
@@ -103,3 +103,9 @@ a{
     margin-left: -6.4rem;
 }
 
+.phrase{
+    color: white;
+    margin-top: -9.2rem;
+    margin-left: -5rem;
+    font-size: 6px;
+}
