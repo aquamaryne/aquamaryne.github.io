@@ -73,13 +73,13 @@ input{
 
 li{
     font-family: Verdana, helvetica, arial, sans-serif;
-    margin: 5px;
+    margin: 4px;
     font-size: 13px;
 }
 
 ul{
     list-style-type: none;
-    margin-top: -41rem;
+    margin-top: -40rem;
     margin-left: -1.8rem;
 }
 
@@ -96,7 +96,5 @@ a{
 .hline{
     border-bottom: 1px solid white;
     margin-top: -40.5rem;
-    margin-left: 6.6rem;
     width: 100%;
-    
 }
