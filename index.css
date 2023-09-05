@@ -1,4 +1,4 @@
-*:not(.titleText, aside, h1, input, img, h4, span){
+*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a){
     background-color: black;
     font-family: Verdana, helvetica, arial, sans-serif;
 }
@@ -24,7 +24,7 @@
     border: 1px solid white;
 }
 
-aside{
+.sideOne{
     padding: 0;
     margin: 0;
     height: 100px;
@@ -36,7 +36,7 @@ aside{
 h1{
     margin-left: 7rem;
     margin-top: -5rem;
-    width: 500px;
+    width: 1000px;
 }
 
 h4{
@@ -55,13 +55,48 @@ img{
 input{
     padding: 0;
     margin-left: 93rem;
-    margin-top: -1em;
 }
 
 .inSearch{
-    margin-left: 94rem;
+    margin-left: 95rem;
     font-size: 12px;
     width: 80px;
-    margin-top: -22px;
+    margin-top: -20px;
 }
 
+.container{
+    border-left: 1px solid white;
+    height: 672px;
+    width: 1px;
+    margin-left: 120px;
+}
+
+li{
+    font-family: Verdana, helvetica, arial, sans-serif;
+    margin: 5px;
+    font-size: 13px;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: -41rem;
+    margin-left: -1.8rem;
+}
+
+a:hover{
+    border:1px solid white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #111111;
+}
+
+.hline{
+    border-bottom: 1px solid white;
+    margin-top: -40.5rem;
+    margin-left: 7.6rem;
+    width: 1720px;
+    
+}
