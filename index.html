@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="index.css">
         <link rel="icon" href="https://media.istockphoto.com/id/1056810690/vector/digital-skull-and-crossbones-on-binary-code.jpg?s=612x612&w=0&k=20&c=9o-a6o_ikSdBG-Kg5_pkqODlDZ2IXs4qx3m8c4-Y1Y0=">
         <title>Aquamaryne</title>
+        <script src="clock.js"></script>
     </head>
     <body>
         <pre class="titleText">                                                                                 
@@ -29,16 +30,19 @@
             <div class="container"></div>
             <ul>
                 <li>
-                    <a href="#info.html"> info </a>
+                    <a href="#" class="dir-link" data-directory="in"> info </a>
                 </li>
                 <li>
-                    <a href="#"> repos </a>
+                    <a href="#" class="dir-link" data-directory="re"> repos </a>
                 </li>
                 <li>
-                    <a href="#"> pen test </a>
+                    <a href="#" class="dir-link" data-directory="pt"> pen test </a>
                 </li>
                 <li>
-                    <a href="#"> bug bounty </a>
+                    <a href="#" class="dir-link" data-directory="bb"> bug bounty </a>
+                </li>
+                <li>
+                    <a href="#" class="dir-link" data-directory="ga"> games </a>
                 </li>
             </ul>
         </div>
@@ -49,6 +53,10 @@
         <div class="phrase">
             <h1>You look lonely, I can fix that</h1>
         </div>
-        <script src="clock.js"></script>
+        <div class="track">
+            <h1 id="track"></h1>
+        </div>
+        <div id="cont"></div>
+        <script src="redirect.js"></script>
     </body>
 </html>
