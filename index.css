@@ -1,4 +1,4 @@
-*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a, .nav, .phrase, .track){
+*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a, .nav, .phrase, .track, .cont, .template){
     background-color: black;
     font-family: Verdana, helvetica, arial, sans-serif;
 }
@@ -115,4 +115,10 @@ a{
     font-size: 7px;
     margin-top: 11.6rem;
     margin-left: 1rem;
+}
+
+.template{
+    font-size: 1rem;
+    margin-top: 6rem;
+    margin-left:12rem;
 }
