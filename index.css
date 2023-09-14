@@ -1,4 +1,4 @@
-*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a, .nav, .phrase, .track, .cont, .template){
+*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a, .nav, .phrase, .track, .cont, .template, .secondTitle, .supp){
     background-color: black;
     font-family: Verdana, helvetica, arial, sans-serif;
 }
@@ -10,7 +10,7 @@
     font-size: 1rem;
     text-align: center;
     text-shadow:
-            0px 15px 10px rgba(65, 105, 231, 1);
+            10px 15px 70px rgba(65, 105, 231, 1);
 }
 
 .content{
@@ -19,6 +19,7 @@
     height: 773px;
     background-color: #111111;
     border: 1px solid white;
+    margin-top: 2.6rem;
 }
 
 .sideOne{
@@ -47,18 +48,6 @@ img{
     margin-left: 10px;
     margin-top: 10px;
     height: 80px;
-}
-
-input{
-    padding: 0;
-    margin-left: 93rem;
-}
-
-.inSearch{
-    margin-left: 95rem;
-    font-size: 12px;
-    width: 80px;
-    margin-top: -20px;
 }
 
 .container{
@@ -121,4 +110,19 @@ a{
     font-size: 1rem;
     margin-top: 6rem;
     margin-left:12rem;
+    position: fixed;
+}
+
+.secondTitle{
+    font-size: 13px;
+    margin-top: -8rem;
+    margin-left: 23rem;
+    color: white;
+    text-shadow:
+        10px 15px 70px rgba(65, 105, 231, 1);
+}
+
+.supp{
+    margin-left: 90rem;
+    width: 100px;
 }
