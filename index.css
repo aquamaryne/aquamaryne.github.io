@@ -1,4 +1,4 @@
-*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a, .nav, .phrase, .track, .cont, .template, .secondTitle, .supp){
+*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a, .nav, .phrase, .track, .cont, .template, .secondTitle, p){
     background-color: black;
     font-family: Verdana, helvetica, arial, sans-serif;
 }
@@ -110,7 +110,6 @@ a{
     font-size: 1rem;
     margin-top: 6rem;
     margin-left:12rem;
-    position: fixed;
 }
 
 .secondTitle{
@@ -125,4 +124,11 @@ a{
 .supp{
     margin-left: 90rem;
     width: 100px;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    margin-left: -2rem;
+    position: relative;
 }
