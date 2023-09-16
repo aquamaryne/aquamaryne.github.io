@@ -1,4 +1,4 @@
-*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a, .nav, .phrase, .track, .cont, .template, .secondTitle, p){
+*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a, .nav, .phrase, .track, .cont, .template, .secondTitle, p, table, th){
     background-color: black;
     font-family: Verdana, helvetica, arial, sans-serif;
 }
@@ -131,4 +131,25 @@ p{
     color: white;
     margin-left: -2rem;
     position: relative;
+}
+
+.vline{
+    margin-left: 60rem;
+    margin-top: -1.57rem;
+    border: 1px solid white;
+    width: 0.1px;
+    height: 645px;
+}
+
+table{
+    border: 1px solid white;
+    width: 105.4%;
+    margin-left: -5.4rem;
+    margin-top: -5.6rem;
+    border-top: none;
+}
+
+th{
+    background-color: #111111;
+    color: white;
 }
