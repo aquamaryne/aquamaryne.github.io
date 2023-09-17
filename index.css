@@ -1,4 +1,4 @@
-*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a, .nav, .phrase, .track, .cont, .template, .secondTitle, p, table, th){
+*:not(.titleText, .sideOne, h1, input, img, h4, span, li, ul, a, .nav, .phrase, .track, .cont, .template, .secondTitle, p, table, th, .scroll){
     background-color: black;
     font-family: Verdana, helvetica, arial, sans-serif;
 }
@@ -19,7 +19,7 @@
     height: 773px;
     background-color: #111111;
     border: 1px solid white;
-    margin-top: 2.6rem;
+    margin-top: 1.7rem;
 }
 
 .sideOne{
@@ -130,12 +130,14 @@ p{
     font-size: 20px;
     color: white;
     margin-left: -2rem;
+    margin-right: 2rem;
     position: relative;
+    text-align: justify;
 }
 
 .vline{
-    margin-left: 60rem;
-    margin-top: -1.57rem;
+    margin-left: 50rem;
+    margin-top: -1.7rem;
     border: 1px solid white;
     width: 0.1px;
     height: 645px;
@@ -147,9 +149,49 @@ table{
     margin-left: -5.4rem;
     margin-top: -5.6rem;
     border-top: none;
+    border-right: none;
 }
 
 th{
     background-color: #111111;
     color: white;
+}
+
+.card{
+    color: white;
+    display: inline-block;
+    width: 150px;
+    height: 250px;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    overflow: hidden;
+    filter: blur(0);
+    transition: filter 0.3s ease;
+}
+
+.scroll{
+    margin-top: -5.6rem;
+    height: 646px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+}
+
+.img{
+    margin: -0.5px;
+    margin-left: -1px;
+    width: 151px;
+    height: 100%;
+    filter: blur(0);
+    transition: filter 0.2s ease;
+}
+
+.card:hover .img{
+    filter: blur(5px);
+    z-index: 1;
+}
+
+.descr{
+    margin-left: 1rem;
+    color: aqua;
 }
