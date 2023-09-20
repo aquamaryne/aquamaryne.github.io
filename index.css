@@ -135,13 +135,13 @@ p{
     text-align: justify;
 }
 
-.vline{
+/* .vline{
     margin-left: 50rem;
     margin-top: -1.7rem;
     border: 1px solid white;
     width: 0.1px;
     height: 645px;
-}
+} */
 
 table{
     border: 1px solid white;
@@ -155,6 +155,9 @@ table{
 th{
     background-color: #111111;
     color: white;
+    border: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .card{
@@ -195,3 +198,6 @@ th{
     margin-left: 1rem;
     color: aqua;
 }
+
+
+
