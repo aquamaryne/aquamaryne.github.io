@@ -135,21 +135,12 @@ p{
     text-align: justify;
 }
 
-/* .vline{
-    margin-left: 50rem;
-    margin-top: -1.7rem;
-    border: 1px solid white;
-    width: 0.1px;
-    height: 645px;
-} */
-
 table{
     border: 1px solid white;
+    border-top: none;
     width: 105.4%;
     margin-left: -5.4rem;
     margin-top: -5.6rem;
-    border-top: none;
-    border-right: none;
 }
 
 th{
@@ -160,43 +151,10 @@ th{
     padding-bottom: 5px;
 }
 
-.card{
-    color: white;
-    display: inline-block;
-    width: 150px;
-    height: 250px;
-    margin-right: 3rem;
-    margin-top: 2rem;
-    overflow: hidden;
-    filter: blur(0);
-    transition: filter 0.3s ease;
-}
-
-.scroll{
-    margin-top: -5.6rem;
-    height: 646px;
-    overflow: hidden;
-    overflow-y: scroll;
-    scroll-behavior: auto;
-}
-
-.img{
-    margin: -0.5px;
-    margin-left: -1px;
-    width: 151px;
-    height: 100%;
-    filter: blur(0);
-    transition: filter 0.2s ease;
-}
-
-.card:hover .img{
-    filter: blur(5px);
-    z-index: 1;
-}
-
-.descr{
-    margin-left: 1rem;
-    color: aqua;
+tbody{
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 
